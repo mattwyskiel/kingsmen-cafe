@@ -29,7 +29,7 @@
     "npm": "^6.5.0",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
-    "pug": "^2.0.3",
+    "pug": "^3.0.3",
     "request": "^2.88.0",
     "square-connect": "^2.20181212.0",
     "strip-html": "^1.0.2",
