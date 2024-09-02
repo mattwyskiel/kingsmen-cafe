@@ -1,0 +1,174 @@
+{
+    "days": {
+       "M": {
+            "name": "Monday",
+            "blocks": {
+                "1": {
+                    "startTime": "07:45:00",
+                    "endTime": "08:42:00"
+                },
+                "2": {
+                    "startTime": "08:46:00",
+                    "endTime": "09:36:00"
+                },
+                "3": {
+                    "startTime": "09:40:00",
+                    "endTime": "10:30:00"
+                },
+                "4": {
+                    "startTime": "10:34:00",
+                    "endTime": "11:51:00",
+                    "lunch": true
+                },
+                "5": {
+                    "startTime": "11:55:00",
+                    "endTime": "12:45:00"
+                },
+                "6": {
+                    "startTime": "12:49:00",
+                    "endTime": "13:39:00"
+                },
+                "7": {
+                    "startTime": "13:43:00",
+                    "endTime": "14:33:00"
+                }
+            }
+        },
+        "T": {
+            "name": "Tuesday",
+            "blocks": {
+                "1": {
+                    "startTime": "07:45:00",
+                    "endTime": "08:42:00"
+                },
+                "CH": {
+                    "startTime": "08:46:00",
+                    "endTime": "09:36:00"
+                },
+                "4": {
+                    "startTime": "09:40:00",
+                    "endTime": "10:30:00"
+                },
+                "3": {
+                    "startTime": "10:34:00",
+                    "endTime": "11:51:00",
+                    "lunch": true
+                },
+                "5": {
+                    "startTime": "11:55:00",
+                    "endTime": "12:45:00"
+                },
+                "6": {
+                    "startTime": "12:49:00",
+                    "endTime": "13:39:00"
+                },
+                "8": {
+                    "startTime": "13:43:00",
+                    "endTime": "14:33:00"
+                }
+            }
+        },
+        "W": {
+            "name": "Wednesday",
+            "blocks": {
+                "2": {
+                    "startTime": "07:45:00",
+                    "endTime": "08:42:00"
+                },
+                "8": {
+                    "startTime": "08:46:00",
+                    "endTime": "09:36:00"
+                },
+                "5": {
+                    "startTime": "09:40:00",
+                    "endTime": "10:30:00"
+                },
+                "ACT": {
+                    "startTime": "10:34:00",
+                    "endTime": "11:51:00",
+                    "lunch": true
+                },
+                "7": {
+                    "startTime": "11:55:00",
+                    "endTime": "12:45:00"
+                },
+                "3": {
+                    "startTime": "12:49:00",
+                    "endTime": "13:39:00"
+                },
+                "6": {
+                    "startTime": "13:43:00",
+                    "endTime": "14:33:00"
+                }
+            }
+        },
+        "R": {
+            "name": "Thursday",
+            "blocks": {
+                "TE@CH": {
+                    "startTime": "07:20:00",
+                    "endTime": "08:25:00"
+                },
+                "3": {
+                    "startTime": "08:40:00",
+                    "endTime": "09:36:00"
+                },
+                "1": {
+                    "startTime": "09:40:00",
+                    "endTime": "10:30:00"
+                },
+                "4": {
+                    "startTime": "10:34:00",
+                    "endTime": "11:51:00",
+                    "lunch": true
+                },
+                "7": {
+                    "startTime": "11:55:00",
+                    "endTime": "12:45:00"
+                },
+                "8": {
+                    "startTime": "12:49:00",
+                    "endTime": "13:39:00"
+                },
+                "2": {
+                    "startTime": "13:43:00",
+                    "endTime": "14:33:00"
+                }
+            }
+        },
+        "F": {
+            "name": "Friday",
+            "blocks": {
+                "1": {
+                    "startTime": "07:45:00",
+                    "endTime": "08:42:00"
+                },
+                "2": {
+                    "startTime": "08:46:00",
+                    "endTime": "09:36:00"
+                },
+                "8": {
+                    "startTime": "09:40:00",
+                    "endTime": "10:30:00"
+                },
+                "4": {
+                    "startTime": "10:34:00",
+                    "endTime": "11:51:00",
+                    "lunch": true
+                },
+                "7": {
+                    "startTime": "11:55:00",
+                    "endTime": "12:45:00"
+                },
+                "6": {
+                    "startTime": "12:49:00",
+                    "endTime": "13:39:00"
+                },
+                "5": {
+                    "startTime": "13:43:00",
+                    "endTime": "14:33:00"
+                }
+            }
+        }
+    }
+}

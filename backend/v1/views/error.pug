@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= message
+  p
+    a(href="kingsmen-cafe://support-email?subject=Error&body=#{error}") Send Email to the Developer
+  pre #{error}

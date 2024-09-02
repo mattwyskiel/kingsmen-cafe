@@ -1,0 +1,8 @@
+app_identifier("org.kingsmen.KingsmenCafe") # The bundle identifier of your app
+apple_id("mwwyskiel@gmail.com") # Your Apple email address
+
+itc_team_id("XXXXXXXXX") # iTunes Connect Team ID
+team_id("XXXXXXXXXX") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

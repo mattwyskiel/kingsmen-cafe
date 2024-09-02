@@ -1,0 +1,41 @@
+{
+  "name": "kingsmen-cafe-backend",
+  "version": "1.1.0",
+  "description": "The Backend for the Kingsmen Café app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Matthew Wyskiel",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "async": "^2.6.1",
+    "bcrypt-nodejs": "0.0.3",
+    "csv-parse": "^2.5.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "facebook-node-sdk": "^0.2.0",
+    "ical": "^0.5.0",
+    "in-app-purchase": "^1.9.16",
+    "json-stringify-safe": "^5.0.1",
+    "jsonfile": "^5.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.10",
+    "nodemailer": "^4.6.8",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "npm": "^6.5.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "pug": "^2.0.3",
+    "request": "^2.88.0",
+    "square-connect": "^2.20181212.0",
+    "strip-html": "^1.0.2",
+    "validator": "^9.4.1"
+  },
+  "engines": {
+    "node": "10.6.0"
+  }
+}

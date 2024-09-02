@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LaunchScreenViewController" customModule="KingsmenCafe" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="CMq-4q-1Mm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K0z-eO-Vke">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kingsmen-cafe" translatesAutoresizingMaskIntoConstraints="NO" id="bnQ-ks-ipO">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="bnQ-ks-ipO" secondAttribute="trailing" id="KS9-j9-pbv"/>
+                        <constraint firstItem="bnQ-ks-ipO" firstAttribute="top" secondItem="K0z-eO-Vke" secondAttribute="top" id="Oqs-7P-udj"/>
+                        <constraint firstItem="bnQ-ks-ipO" firstAttribute="leading" secondItem="K0z-eO-Vke" secondAttribute="leading" id="sQk-9I-VIs"/>
+                        <constraint firstItem="bnQ-ks-ipO" firstAttribute="bottom" secondItem="K0z-eO-Vke" secondAttribute="bottom" id="v12-bB-gBl"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="S4S-JZ-jW7"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="K0z-eO-Vke" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="6Dh-fG-dH2"/>
+                <constraint firstItem="K0z-eO-Vke" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="aDJ-aT-7qa"/>
+                <constraint firstItem="K0z-eO-Vke" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="dIU-Fo-eoQ"/>
+                <constraint firstItem="K0z-eO-Vke" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="vU5-6k-CNS"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="kingsmen-cafe" width="2048" height="1365"/>
+    </resources>
+</document>

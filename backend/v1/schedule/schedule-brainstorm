@@ -1,0 +1,44 @@
+schedule basics
+
+Week - Static
+- made of Days
+- 5 Days - Monday, Tuesday, Wednesday, Thursday, Friday
+    (idx)  0       1        2          3         4
+
+Day - Static
+- made of Blocks
+- 8 Blocks
+    - 0: 7:45-8:38
+    - 1: 8:42-9:32
+        - On Thursday, this period starts at 8:40
+    - 2: 9:36-10:26
+    - 3: 10:30-11:20
+    - 4: 11:24-12:41 (+ Lunch)
+    - 5: 12:45-1:35
+    - 6: 1:39-2:29
+    - 7: 2:33-2:45 (Homeroom Check-In)
+
+Block
+    - Day
+    - Time
+        - Start Time
+        - End Time
+        - User Readable Time Range (calculated)
+
+Block Pattern
+- a default pattern for classes
+- numbered 1-8
+- make this an intermediary, because not all classes fit into one block pattern for all days of week.
+- Meeting Times: [Block]
+
+Course
+- ID
+- Name
+- Subject
+- Lay Name (ex: 'Government' for American Government)
+
+Class
+- Course ID
+- Teacher ID
+- Meeting Times: [Block]
+    - func generateForBlockPattern(blockPattern: BlockPattern)
